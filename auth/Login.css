@@ -1,0 +1,216 @@
+.background {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.form-box {
+  width: 25%;
+  height: 63%;
+  margin-left: auto;
+  margin-top: 15%;
+  margin-right: 10%;
+  border: 0px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 16px;
+  display: block;
+  background-color: #204257;
+  border-radius: 12px;
+
+}
+
+.form-text {
+  font-size: 16px;
+  display: inline;
+  display:block;
+  margin: auto;
+  margin-top: 10px;
+  margin-left:15px;
+  width: 90%;
+  border-radius: 10px;
+
+}
+
+.radio-text {
+  font-size: 16px;
+  margin-right: 0%;
+  color: white;
+  font-family: Montserrat;
+}
+
+.form-h1 {
+  font-size: 23px;
+  text-align: left;
+  margin-left: 2%;
+  color: white;
+  font-family: Montserrat;
+}
+
+.verify-button {
+  font-size: 25px;
+  margin-left: 60%;
+  cursor: pointer;
+  font-family: Montserrat;
+}
+
+.login-redirect {
+  font-size: 15px;
+  margin-left: 30%;
+  padding-left: 20px;
+  margin-top: 2%;
+  color: white;
+  font-family: Montserrat;
+}
+
+.main-message {
+  font-size: 35px;
+  background: transparent;
+  width:50%;
+  height: 5%;
+  float: left;
+  padding-left: 100px;
+  font-family: Montserrat;
+
+}
+
+body {
+  background-image: url("background.png");
+  background-color: #cccccc;
+
+    background-size: cover;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+	background-color:#007dc1;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:5px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.login{
+  font-family: Montserrat;
+  background:#124d77;
+  margin: 0 auto 0 auto;
+  width:100%;
+  text-align:center;
+  margin: 20px 0px 20px 0px;
+  color: white;
+}
+
+
+.h1-box{
+  font-size:1.5em;
+  color:#fff;
+}
+
+.box{
+  background:#204257;
+  width:300px;
+  border-radius:6px;
+  margin: 0 auto 0 auto;
+  padding:0px 0px 70px 0px;
+
+}
+
+.email{
+  background:#fff;
+  border: #ccc 1px solid;
+  border-bottom: #ccc 2px solid;
+  padding: 8px;
+  width:250px;
+  color: black;
+  margin-top:10px;
+  font-size:1em;
+  border-radius:4px;
+}
+
+.password{
+  border-radius:4px;
+  background:#fff;
+  border: #ccc 1px solid;
+  padding: 8px;
+  width:250px;
+  font-size:1em;
+  color: black;
+}
+
+.btn{
+  background:#3498db;
+  width:125px;
+  padding-top:5px;
+  padding-bottom:5px;
+  color:white;
+  border-radius:4px;
+  border: #3498db 1px solid;
+
+  margin-top:20px;
+  margin-bottom:20px;
+  float:left;
+  margin-left:16px;
+  font-weight:800;
+  font-size:0.8em;
+}
+
+.btn:hover{
+  background:#3498db;
+}
+
+#btn2{
+  float:middle;
+  background:#3498db;
+  width:125px;  padding-top:5px;
+  padding-bottom:5px;
+  color:white;
+  border-radius:4px;
+  border: #2980b9 1px solid;
+
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:10px;
+  font-weight:800;
+  font-size:0.8em;
+}
+
+#btn2:hover{
+background:#3594D2;
+}
+
+.p-box{
+  font-size:12px;
+  text-decoration: none;
+  color:#ffffff;
+}
